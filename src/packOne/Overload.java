@@ -2,9 +2,9 @@ package packOne;
 
 public class Overload {
     public static void main(String[] args) {
-       // Overload o=new Overload();
-       // o.add(1);
-        add(1);
+        Overload o=new Overload();
+        o.add(1);
+        o.add('c');
         add("meena");
     }
     static void add(int a)
