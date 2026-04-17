@@ -7,7 +7,7 @@ public class Two {
         //static and non static
         Two t=new Two();
         System.out.println(a);
-        System.out.println(t.b);
+        System.out.println(b);
         sum();
         t.sub();
     }
